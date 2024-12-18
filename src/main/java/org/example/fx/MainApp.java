@@ -44,6 +44,7 @@ public class MainApp extends Application {
         Scene scene = new Scene(layout, 400, 400);
         primaryStage.setScene(scene);
         primaryStage.show();
+
     }
     private void nutikTable() {
         String url = "jdbc:mysql://localhost:3306/example";
